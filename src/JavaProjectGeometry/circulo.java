@@ -9,7 +9,7 @@ public class circulo {
         System.out.print("Escribe el valor del radio: ");
         double r = console.nextDouble();
 
-        double pi = 3.1415;
+        final double pi = 3.1415;
 
         double circunferencia = (r*2)*pi;
         double area = r*r*pi;

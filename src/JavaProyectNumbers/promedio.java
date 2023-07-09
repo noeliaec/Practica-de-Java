@@ -1,4 +1,4 @@
-package Promedio;
+package JavaProyectNumbers;
 
 import java.util.Scanner;
 
