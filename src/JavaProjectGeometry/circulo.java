@@ -4,13 +4,15 @@ import java.util.Scanner;
 
 public class circulo {
     public static void main(String[] args){
-        Scanner consola = new Scanner(System.in);
+        Scanner console = new Scanner(System.in);
 
         System.out.print("Escribe el valor del radio: ");
-        double radio = consola.nextDouble();
+        double r = consola.nextDouble();
 
-        double circunferencia = (radio*2)*3.14;
-        double area = radio*radio*3.14;
+        double pi = 3.1415;
+
+        double circunferencia = (r*2)*pi;
+        double area = r*r*pi;
 
         System.out.print("C= "+circunferencia+" A= "+area);
     }
