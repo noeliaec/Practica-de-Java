@@ -2,7 +2,7 @@ package JavaProjectGeometry;
 
 import java.util.Scanner;
 
-public class Numeros {
+public class cuadrado {
     public static void main (String args[]){
         Scanner console = new Scanner(System.in);
             int base;
