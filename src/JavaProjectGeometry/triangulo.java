@@ -1,4 +1,4 @@
-package Javachiquitito;
+package JavaProjectGeometry;
 
 import java.util.Scanner;
 
