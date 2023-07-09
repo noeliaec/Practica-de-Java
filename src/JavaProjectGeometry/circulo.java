@@ -7,7 +7,7 @@ public class circulo {
         Scanner console = new Scanner(System.in);
 
         System.out.print("Escribe el valor del radio: ");
-        double r = consola.nextDouble();
+        double r = console.nextDouble();
 
         double pi = 3.1415;
 
