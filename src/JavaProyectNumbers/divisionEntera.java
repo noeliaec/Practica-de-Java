@@ -6,8 +6,12 @@ public class divisionEntera {
     public static void main(String arg[]){
         Scanner entrada = new Scanner(System.in);
 
-        System.out.print("Escriba la cantidad de pelotas y luego de niños: ");
+        System.out.print("-----------------------------------------------\n");
+        System.out.print("Escriba la cantidad de pelotas y luego de niños: \n");
+        System.out.print("-----------------------------------------------\n");
+        System.out.println("Pelotas: ");
         int pelotas = entrada.nextInt();
+        System.out.println("Niños: ");
         int niños = entrada.nextInt();
 
         int cantXNiño = pelotas/niños;
