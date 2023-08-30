@@ -11,7 +11,6 @@ Escape Sequence             Description
  */
 
 package Caracteres;
-
 public class Caracteres {
     public static void main(String args[]){
         System.out.println("Hola\nmundo");

@@ -1,5 +1,4 @@
 package Caracteres;
-
 import java.util.Scanner;
 public class OptionWithBoolean {
     public static void main (String[] args) {

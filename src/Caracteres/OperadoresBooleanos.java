@@ -1,5 +1,4 @@
 package Caracteres;
-
 public class OperadoresBooleanos {
     public static void main(String[] args) {
         boolean a, b;
