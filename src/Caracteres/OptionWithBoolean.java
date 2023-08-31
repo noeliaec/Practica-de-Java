@@ -1,7 +1,7 @@
 package Caracteres;
 import java.util.Scanner;
 public class OptionWithBoolean {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in); //Importar la Clase Scanner:La clase Scanner se importa para permitir la entrada de datos desde la consola.
 
         final String OPTION_1 = "1";
@@ -11,7 +11,7 @@ public class OptionWithBoolean {
         final double PI = 3.1415; //Definir Constantes: Se definen constantes para las opciones y el valor de π (PI).
 
 
-        String opcion;
+        String opcion = "";
         double alto, base, radio, area; //Declarar Variables: Se declaran las variables opcion, alto, base, radio y area para almacenar la opción seleccionada y los valores de entrada.
 
         System.out.print(
@@ -54,46 +54,7 @@ public class OptionWithBoolean {
             System.out.print("ERROR: No has ingresado una opción válida\n");
             System.out.println("Presiona ENTER para salir...");
             entrada.nextLine();
-        }
-
-
-        /*
-        switch(opcion){
-            case OPTION_1, "A", "a":
-                System.out.print("ALTO >> ");
-                alto = entrada.nextDouble();
-                entrada.nextLine();
-                System.out.print("BASE >> ");
-                base = entrada.nextDouble();
-                entrada.nextLine();
-                area = alto * base ;
-                System.out.println("El área es "+area);
-                break;
-
-            case OPTION_2, "B", "b":
-                final double PI = 3.1415;
-                System.out.print("RADIO >> ");
-                radio = entrada.nextDouble();
-                entrada.nextLine();
-                area = radio * radio * PI ;
-                System.out.println("El área es "+area);
-                break;
-
-            case OPTION_3, "C", "c":
-                System.out.print("ALTO >> ");
-                alto = entrada.nextDouble();
-                entrada.nextLine();
-                System.out.print("BASE >> ");
-                base = entrada.nextDouble();
-                entrada.nextLine();
-                area = (alto * base)/2 ;
-                System.out.println("El área es "+area);
-                break;
-
-            case OPTION_4, "D", "d":
-                System.out.print("FINALIZADO");
-
-        }*/
 
         }
     }
+}
