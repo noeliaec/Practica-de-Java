@@ -19,9 +19,11 @@ public class BucleForAdivinadorNumero {
             int numeroLeido = entrada.nextInt();
             entrada.nextLine();
 
+            // OPERADOR TERNARIO
             String resultado = (numeroLeido == numeroSecreto) ? "¡ACERTASTE!" : ((numeroLeido < numeroSecreto) ? "El numero es mayor" : "El numero es menor");
             System.out.println(resultado);
 
+            // BOOLEAN
             if (numeroLeido == numeroSecreto){
                 adivino=true;
             }
